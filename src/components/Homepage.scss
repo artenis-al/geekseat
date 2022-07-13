@@ -1,0 +1,36 @@
+div {
+font-size: 15px;
+}
+h1 hr{
+    display: inline-block;
+    width: 44%;
+    margin: 5px 10px;
+    border-top: 1px solid;
+    align-items: center;
+}
+
+.primary{
+    color: #e829ad;
+}
+
+.secondary{
+    color: #3e3e3e;
+}
+
+.divider{
+
+    border-top: solid;
+    &--dashed{
+        border-top: dashed;
+    }
+    &--dotted{
+        border-top: dotted;
+    }
+    &--light{
+        border-top: rgb(214, 211, 211) 0.1px solid;
+    }
+    &--heavy{
+        border-top: 2px solid;
+    }
+
+}
